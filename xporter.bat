@@ -2,10 +2,10 @@ rem EXPORTER
 @echo off
 cls
 :main
-echo Selamat Datang di                                                    ||"
-echo     ========
-echo     EXPORTER
-echo     ========
+echo Selamat Datang di
+echo     =========
+echo      Xporter
+echo     =========
 echo.
 echo Direktori saat ini %cd%
 echo.
