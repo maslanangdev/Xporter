@@ -1,11 +1,15 @@
+setlocal
 rem EXPORTER
 @echo off
 cls
 :main
-echo Selamat Datang di
-echo     =========
-echo      Xporter
-echo     =========
+echo "|| Selamat Datang di                    ||"
+echo "|| __  __                 _             ||"
+echo "|| \ \/ /_ __   ___  _ __| |_ ___ _ __  ||"
+echo "||  \  /| '_ \ / _ \| '__| __/ _ \ '__| ||"
+echo "||  /  \| |_) | (_) | |  | ||  __/ |    ||"
+echo "|| /_/\_\ .__/ \___/|_|   \__\___|_|    ||"
+echo "||      |_|                             ||"
 echo.
 echo Direktori saat ini %cd%
 echo.
@@ -27,11 +31,26 @@ if %target%== 2 goto PDFFULL
 if %target%== 3 goto PDFCMYKFULL
 if %target%== 4 goto EPSFULL
 if %target%== 5 goto SVGFULL
+if %target%== exit goto langsung_end
 echo Silahkan pilih target yang tersedia
 echo Tekan Enter Untuk Kembali
 pause >nul
 goto main
 
+:credits
+echo.
+echo 
+echo Tool ini dibuat untuk melakukan exporting pada file .svg melalui Inkscape command line
+echo =============================================================================================
+echo Inkporter menggunakan teknologi dari : 
+echo Inkscape (https://inkscape.org/)
+echo Ghostscript (https://www.ghostscript.com/)
+echo ===========================================
+echo xporter.bat ditulis oleh Mas RJ95
+echo Kota Tahu, 2020
+echo.
+echo Tekan ENTER untuk kembali
+pause >nul
 
 :PNGFULL
 echo Bersiap mengekspor file SVG (Page) ke PNG
@@ -113,7 +132,7 @@ goto end
 cls
 echo.
 echo Permintaan anda telah diselesaikan
-echo file anda telah disimpan di %cd%\%fold%
+echo file anda telah disimpan di %cd%
 
 
 :langsung_end
