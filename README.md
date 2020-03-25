@@ -9,7 +9,7 @@ Aplikasi yang dibutuhkan :
 
 Petunjuk Instalasi
 
-- Unduh dan salin inkporter.bat ke direktori installasi Inkscape
+- Unduh dan salin Xporter.bat ke direktori installasi Inkscape
 - tambahkan direktori installasi inkscape dan ghostscript ke %PATH%
 	- buka Control Panel -> System and Security -> System 
 	- klik pada pojok kiri atas *Advanced system setting* lalu akan muncul system properties
