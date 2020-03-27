@@ -5,7 +5,7 @@ tool sederhana untuk mengekspor berkas SVG melalui Inkscape Command Line
 
 Aplikasi yang dibutuhkan :
 - **Inkscape** : https://inkscape.org/
-- **Ghostscript** untuk expor pdf-cmyk : https://www.ghostscript.com/download/gsdnld.html (gunakan ghostscript 32bit, karena inkporter.bat ini saya tulis agar menggunakan gswin32 sehingga dapat berjalan di semua arsitektur)
+- **Ghostscript** untuk expor pdf-cmyk : https://www.ghostscript.com/download/gsdnld.html (gunakan ghostscript 32bit, karena xporter.bat ini saya tulis agar menggunakan gswin32 sehingga dapat berjalan di semua arsitektur)
 
 Petunjuk Instalasi
 
