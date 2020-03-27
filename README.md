@@ -40,7 +40,7 @@ Petunjuk Instalasi
  	  * selanjutnya ketik **cd nama_folder** misal **cd project** lalu tekan enter untuk masuk ke folder bernama project
   * jalankan Xporter dengan mengetikkan xporter di CMD lalu tekan enter
   * pilih format expor yang anda inginkan seperti eps, maka ketik angka 4 lalu enter
-  * lalu akan muncul berkas-berkas SVG yang ada di direktori saat ini, setelah itu ketik salah satu berkas yang ingin anda proses seperti **drawing.svg*
+  * lalu akan muncul berkas-berkas SVG yang ada di direktori saat ini, setelah itu ketik salah satu nama berkas yang ingin anda proses seperti **drawing.svg*
   * setelah itu pilih tentukan nama berkas hasil expor seperti **project1**
   * berkas anda akan di proses dan disimpan di direktori yang sama dengan berkas SVG anda
 
